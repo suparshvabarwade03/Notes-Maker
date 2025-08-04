@@ -533,10 +533,10 @@ app.get("/search-notes", authenticateToken, async (req, res) => {
     }
 });
 
-
-const PORT = process.env.PORT || 8000; // Use port from environment or default to 8000
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`);
-});
+ 
+// const PORT = process.env.PORT || 8000;  
+// app.listen(PORT, () => {
+//     console.log(`Server is running on port ${PORT}`);
+// });
 
 module.exports = app;
